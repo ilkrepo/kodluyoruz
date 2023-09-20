@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    background-color: #26577C;
+  }
+  header {
+    background-color: #d80032;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  #logoText {
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+  }
+  #logoText > img {
+    width: 40px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  nav {
+    margin-left: auto;
+  }
+  nav > ul {
+    display: flex;
+    text-decoration: none;
+  }
+  nav > ul > li {
+    display: flex;
+    text-decoration: none;
+  }
+  a {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  main {
+    margin-left: 15px;
+    color: #3d0c11;
+  }
+  main > h2 {
+    text-align: center;
+    margin: 25px;
+    font-size: 40px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  figure {
+    margin: 0;
+  }
+  .oyunResmi {
+    width: 400px;
+  }
+  .oyunIncelemesi {
+    padding: 15px;
+    border: 3px solid #f9dec9;
+    margin: 15px;
+    font-size: 18px;
+  }
